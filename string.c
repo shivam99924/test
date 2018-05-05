@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void fun(){
+return "hello";
+}
+
 size_t my_strlen(const char *s)
 {
    char *p = s;
