@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-void fun()
-{
-return "helllo";
-}
-
-size_t my_strlen(char *s)
+size_t my_strlen(const char *s)
 {
    char *p = s;
 
@@ -29,4 +24,9 @@ int main(void)
    printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
 
    return 0;
+}
+
+void fun()
+{
+return "helllo";
 }
