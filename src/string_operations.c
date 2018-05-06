@@ -1,3 +1,4 @@
+/*this line will be deleted*/
 #include <stdio.h>
 
 size_t my_strlen(const char *s)
